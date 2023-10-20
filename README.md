@@ -1,5 +1,5 @@
 # goitneo-python-hw-1-group-8
-Exercise 1:
+Exercise 1(VSC):
 It is simple function for displaying a list of colleagues who need to be congratulated on their birthdays this week.
 Example of dictionary this function can work:
 users = [
@@ -8,8 +8,8 @@ users = [
     {"name": "Jan Koum", "birthday": datetime(1976, 2, 24)},
 ]
 
-Exercise 2:
-It is a virtual bot assistant that will recognise commands entered from the keyboard and respond according to the entered command. 
+Exercise 2(VSC):
+It is a consol bot assistant that will recognise commands entered from the keyboard and respond according to the entered command. 
 
 The bot accepts commands:
 
