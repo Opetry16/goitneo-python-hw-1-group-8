@@ -1,6 +1,12 @@
 # goitneo-python-hw-1-group-8
 Exercise 1:
 It is simple function for displaying a list of colleagues who need to be congratulated on their birthdays this week.
+Example of dictionary this function can work:
+users = [
+    {"name": "Bill Gates", "birthday": datetime(1955, 10, 28)},
+    {"name": "Kim Kardashian", "birthday": datetime(1980, 10, 21)},
+    {"name": "Jan Koum", "birthday": datetime(1976, 2, 24)},
+]
 
 Exercise 2:
 It is a virtual bot assistant that will recognise commands entered from the keyboard and respond according to the entered command. 
