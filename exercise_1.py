@@ -14,19 +14,19 @@ def get_birthdays_per_week(users):
             birthday_this_year = birthday_this_year.replace(year = today.year + 1)
         delta_days = (birthday_this_year - today).days
         if delta_days < 7:
-            day_of_week = (today + timedelta(days = delta_days)).strftime('%A')
-            if day_of_week in ['Saturday', 'Sunday']:
-                day_of_week = 'Monday'
+            day_of_week = (today + timedelta(days = delta_days)).strftime("%A")
+            if day_of_week in ["Saturday", "Sunday"]:
+                day_of_week = "Monday"
             birthdays_by_day[day_of_week].append(name)         
     for day, names in birthdays_by_day.items():
         if names:
-            print(f"{day}: {', '.join(names)}")
+            print(f"{day}: {', ' .join(names)}")
             
-            
+if __name__ == "__main__":            
     users = [
-    {"name": "Bill Gates", "birthday": datetime(1955, 10, 28)},
-    {"name": "Kim Kardashian", "birthday": datetime(1980, 10, 21)},
-    {"name": "Jan Koum", "birthday": datetime(1976, 2, 24)},
+    {"name": "Bill Gates", "birthday": datetime(1955, 10, 26)},
+    {"name": "Kim Kardashian", "birthday": datetime(1980, 10, 27)},
+    {"name": "Jan Koum", "birthday": datetime(1976, 10, 22)},
 ]
 
     get_birthdays_per_week(users)
